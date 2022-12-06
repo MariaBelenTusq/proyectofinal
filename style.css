@@ -1,0 +1,372 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* 1REM = 10px */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: 'Edu NSW ACT Foundation', sans-serif;
+  margin: 0px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  padding: 0px;
+  top: 100px;
+  background-size: cover;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAJCAYAAADtj3ZXAAAAAXNSR0IArs4c6QAAAfNJREFUKFMNzV1PUmEAwPH/Ax7RkCOKG1DiWzLbKJlpLnWrOTedbdb6AF1V38Hu6qK+QN24Ni/yopuay7po3dRNWRjOzVlYTBTEQDy8yuHEy3nq9wV+4smdiDwNr9MTq+K+0Yf/3jCpVJXyiSQZrlEXPizNp2z+eUfyfA3ZXGCy0cXV152Ih9fXpCcUx13twHp3CHWkD6GUMBUdLSaIbtXIFgy2rVt4Fs5RII7xQeP+12HEovuxvJ3pJ9FRpfvRDOlyHVlQwahg2k/o6mkh8jPBRiVHxiVRrIKBDTsTISviueOZDJbc7F9o0Ls4RylTA12hkK7zO5LEojbQzsYYm/Wze3yMFjIZ3OnmTPQA8cq+LOuVIm0LQczZUTLbRdotTRhYkFY7+3s/+JQP03/Zid1VYb53nNJOgb1Q6v/sWZElLY3v5gTu6Unih8fUTYFpmAjRyvutNZpGO0nmE9h8XoLVIbpqeQJeBfGid1WS1zgcc1LO2gkMDOIMeHC4Wtj8HONt6iM9UwN8+Rvh0swtKts2VHTUlTeI5aYl6Rrxoj6YJrz6CzOaQRSbaat1EM3G0aZtJJUD0hfb8fkmsZ60ktX3ubIaRrzkqTTmgjjmx3HqOt0OG+tLR+T2cnzzfUeZ6iPeckSbP4Aj00lJNUnru1xLGPwDcP3bO+5kAc0AAAAASUVORK5CYII=");
+}
+
+
+h2
+{
+  display:flex;
+  width: 100px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ae00ff, 0 0 35px #001eff, 0 0 60px #ae00ff;
+}
+
+
+
+.header {
+  overflow: hidden;
+  padding: 15rem 0;
+  position: relative;
+  justify-content: space-between;
+
+  font-size: 30px;
+  
+  
+
+}
+
+
+.video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0,3px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+
+video {
+  width: 100%;
+  position: center center;
+
+
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 0;
+  color: inherit;
+  display: flex;
+  cursor: pointer;
+
+}
+
+
+.logo:hover {
+  background-image: url();
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+.imageMain {
+
+
+ margin-top: -90px;
+ top: 90px;
+ background-position:center center; 
+ background-repeat: no-repeat;  
+ background-size:cover;
+ position:relative;
+ background-image:url( https://i.etsystatic.com/32913796/r/il/b29f58/3735527183/il_1140xN.3735527183_esjp.jpg) ;
+
+}
+
+
+h1{
+  font-size: 60px;
+  font-family: 'Futura';
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+  text-align: center;
+  }
+
+
+
+
+
+
+
+
+.characters,
+.locations,
+.episode {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.card {
+  margin: 30px;
+  height: -300px;
+  width: -30px;
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(https://i.etsystatic.com/32913796/r/il/dcd541/3735548527/il_fullxfull.3735548527_8plv.jpg);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#18d100', endColorstr='#14a327', GradientType=1);
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 0.5rem #6026e7;
+  padding: 1rem;
+  margin-bottom: 8rem;
+  border-radius: 48px 48px 48px 48px;
+  -moz-border-radius: 48px 48px 48px 48px;
+  -webkit-border-radius: 48px 48px 48px 48px;
+  border: 12px none #ffffff;
+  box-shadow: 0 0 20px #ae00ff, 0 0 35px #001eff, 0 0 60px #ae00ff;
+
+}
+
+.card:hover {
+  z-index: 1;
+  transform: scale(1.05);
+  box-shadow: 0 2rem 4rem #094549;
+  transition: all 0.3s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 6px;
+  box-shadow: 0 0 40px 0 rgb(117, 68, 97);
+
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+  text-align: center;
+
+  font-family: 'Farsan', cursiva;
+  color: #161416;
+
+
+
+}
+
+
+.cardInfo span {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Rubik Moonrocks', cursive;
+  color: rgb(32, 120, 178);
+  color: rgb(7, 7, 7);
+  -webkit-text-stroke: 2px rgb(79, 6, 249);
+  position: relative;
+
+
+
+}
+
+.cardInfo p {
+  font-size: 2rem;
+  margin: 0.8rem 0;
+  font-style: italic;
+  color: darkblue
+}
+
+
+
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #c80470;
+  border-top: 0.2rem solid #c031a823;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1770453485893246977/FA4026EBB255ACE569504E4EB81645214FDF1CE7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=#000000&letterbox=false);
+ border-radius: 40px;
+
+
+	color: rgb(250, 99, 205);
+
+	font-weight: bold;
+	overflow: hidden;
+	position: relative;
+	padding: 10px;
+	text-transform: uppercase;
+	animation: 1s ease infinite reverse glow;
+}
+.neon-text:before {
+	content: attr(data-text);
+	position: absolute;
+	mix-blend-mode: difference;
+	filter: blur(3px);
+}
+.neon-text:after {
+	content: "";
+	background: linear-gradient(45deg, #7b4397 30%, #dc2430 70%);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: multiply;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 0 0;
+	}
+	75% {
+		text-shadow: 0 0 16px;
+		filter: brightness(300%);
+	}
+}
+
+.links a{
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 5rem;
+  font-weight: 700;
+  background-color: rgba(4,204,228,0.95);
+  border-radius: 0.4rem;
+  padding: 6rem 5rem;
+  box-shadow: 0.5rem 1.5rem 2rem #04b0c8;
+}
+
+
+
+@media (max-width: 900px) {
+
+  .header {
+    padding: 0;
+    height: auto;
+  }
+
+  .headerLogo {
+    transform: scale(0.6);
+    height: auto;
+  }
+
+  .links {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    flex-direction: column;
+  }
+
+  .links a {
+    padding: 2rem 4rem;
+    margin: 0 10%;
+    font-size: 4rem;
+  }
+
+  .logs img {
+    margin: 0 1.5rem;
+  }
+
+  .terms {
+    font-size: 2rem;
+  }
+
+
+
+  .characters,.episode,.locations {
+    display: flex;
+    flex-wrap: wrap
+  }
+
+  .card {
+    line-height: 1;
+    font-size: 1rem;
+    padding: 0.5rem;
+    flex: 1 1 auto;
+  }
+
+  .cardInfo {
+    font-size: 2rem;
+  }
+
+  .cardInfo h3,
+  .cardInfo p {
+    margin: 0.5rem 0;
+  }
+
+  .whatIsSerie {
+    width: 100%;
+  }
+
+  .numbers h4 {
+    font-size: 6rem;
+  }
+
+  .numbers p {
+    font-size: 3rem;
+  }
+
+  .stream {
+    flex-basis: 42%;
+  }
+
+}
+
+@media (max-width: 370px) {
+
+  .headerLogo {
+    transform: scale(0.7);
+    height: 10rem;
+  }
+
+  video {
+    height: 100%;
+  }
+
+  .links a {
+    font-size: 3rem;
+  }
+
+}
